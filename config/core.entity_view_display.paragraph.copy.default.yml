@@ -1,0 +1,33 @@
+uuid: 13c429e0-e9d0-4e41-aa83-3993525628c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.copy.field_background_colour
+    - field.field.paragraph.copy.field_copy_text
+    - paragraphs.paragraphs_type.copy
+  module:
+    - color_field
+    - text
+id: paragraph.copy.default
+targetEntityType: paragraph
+bundle: copy
+mode: default
+content:
+  field_background_colour:
+    type: color_field_formatter_text
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_copy_text:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

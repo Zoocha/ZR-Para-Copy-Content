@@ -1,0 +1,25 @@
+uuid: 498b2284-2884-48e5-bc2e-20bc583e170b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_colour
+    - paragraphs.paragraphs_type.copy
+  module:
+    - color_field
+id: paragraph.copy.field_background_colour
+field_name: field_background_colour
+entity_type: paragraph
+bundle: copy
+label: 'Background Colour'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#FFFFFF'
+    opacity: 1.0
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

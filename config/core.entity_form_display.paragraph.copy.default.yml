@@ -1,0 +1,34 @@
+uuid: 431c62de-2d6b-4121-b4e6-d00b291d65cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.copy.field_background_colour
+    - field.field.paragraph.copy.field_copy_text
+    - paragraphs.paragraphs_type.copy
+  module:
+    - color_field
+    - text
+id: paragraph.copy.default
+targetEntityType: paragraph
+bundle: copy
+mode: default
+content:
+  field_background_colour:
+    type: color_field_widget_box
+    weight: 0
+    region: content
+    settings:
+      default_colors: '#ffffff,#3a11cb,#ff5d35,#201e26'
+    third_party_settings: {  }
+  field_copy_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

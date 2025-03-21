@@ -1,0 +1,9 @@
+name: 'ZC Copy Content - Paragraph'
+description: 'Installs Copy Component Paragraph'
+type: 'Feature'
+
+recipes:
+  - zoocha-cke5-recipe
+  - zoocha-paragraph-bundle
+config:
+  strict: false

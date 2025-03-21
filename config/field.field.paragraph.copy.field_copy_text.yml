@@ -1,0 +1,22 @@
+uuid: 6f8e7e88-3a19-464c-bbca-e99845023053
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_copy_text
+    - paragraphs.paragraphs_type.copy
+  module:
+    - text
+id: paragraph.copy.field_copy_text
+field_name: field_copy_text
+entity_type: paragraph
+bundle: copy
+label: 'Copy text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
