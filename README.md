@@ -7,7 +7,7 @@ To install the Zoocha Copy Content Paragraph, follow the steps below:
 3. Run the following command to execute the Zoocha Copy Content Paragraph installation:
 
     ```sh
-    ddev drush recipe recipes/custom/zr-para-copy-content
+    ddev drush recipe recipes/custom/zr-para-cta
     ```
 
 This command will execute the Zoocha Copy Content Paragraph installation.
