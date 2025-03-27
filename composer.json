@@ -4,7 +4,7 @@
     "type": "drupal-recipe",
     "require": {
         "php": ">=8.1",
-        "zr/cke5-recipe": "^1.0",
+        "zr/zr-cke5-recipe": "^1.0",
         "zr/zr-paragraph-bundle": "^1.0",
         "drupal/color_field": "^3.0"
     },
