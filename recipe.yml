@@ -5,5 +5,7 @@ type: 'Feature'
 recipes:
   - cke5-recipe
   - zr-paragraph-bundle
+install:
+  - color_field
 config:
   strict: false
