@@ -3,7 +3,7 @@ description: 'Installs Copy Component Paragraph'
 type: 'Feature'
 
 recipes:
-  - cke5-recipe
+  - zr-cke5-recipe
   - zr-paragraph-bundle
 install:
   - color_field
