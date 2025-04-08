@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.copy.field_background_colour
     - field.field.paragraph.copy.field_copy_text
     - paragraphs.paragraphs_type.copy
   module:
@@ -16,15 +15,6 @@ targetEntityType: paragraph
 bundle: copy
 mode: default
 content:
-  field_background_colour:
-    type: color_field_formatter_text
-    label: hidden
-    settings:
-      format: hex
-      opacity: true
-    third_party_settings: {  }
-    weight: 0
-    region: content
   field_copy_text:
     type: text_default
     label: hidden
