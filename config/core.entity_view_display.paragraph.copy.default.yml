@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.copy.field_copy_text
     - paragraphs.paragraphs_type.copy
   module:
-    - color_field
     - text
 _core:
   default_config_hash: enxbYiuNbvEIYGOblMFtSku58-dvmnsBw8s-Hr_Ocac
