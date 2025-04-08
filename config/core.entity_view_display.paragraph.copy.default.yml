@@ -9,6 +9,8 @@ dependencies:
   module:
     - color_field
     - text
+_core:
+  default_config_hash: enxbYiuNbvEIYGOblMFtSku58-dvmnsBw8s-Hr_Ocac
 id: paragraph.copy.default
 targetEntityType: paragraph
 bundle: copy
@@ -16,7 +18,7 @@ mode: default
 content:
   field_background_colour:
     type: color_field_formatter_text
-    label: above
+    label: hidden
     settings:
       format: hex
       opacity: true
@@ -25,7 +27,7 @@ content:
     region: content
   field_copy_text:
     type: text_default
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 1
