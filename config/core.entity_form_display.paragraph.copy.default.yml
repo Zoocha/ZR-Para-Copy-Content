@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.copy.field_copy_text
     - paragraphs.paragraphs_type.copy
   module:
-    - color_field
     - text
 id: paragraph.copy.default
 targetEntityType: paragraph
